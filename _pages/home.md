@@ -3,12 +3,12 @@ layout: single
 read_time: false
 comments: false
 share: false
-title: <br><br><br><br><br><br>Alex Kendall
+title: <br><br><br><br><br><br>Ana Ludmila
 permalink: /
 header:
 overlay_color: "#000"
 overlay_filter: "0.5"
-overlay_image: /assets/images/trinity.jpg
+overlay_image: /assets/images/image1.jpg
 caption: "Photo: "
 excerpt: "Welcome to my world of creation and development!<br><br>"
 feature_row:
