@@ -2,8 +2,8 @@
 main:
   - title: "GitHub"
     url: https://github.com/aludmila-kotlin/
-  - title: "Search"
-    url: /search/
+  - title: "Talks"
+    url: /talks/
   - title: "Posts"
     url: /posts/
   - title: "Sitemap"
