@@ -6,11 +6,11 @@ share: false
 title: <br><br><br><br><br><br>only me
 permalink: /
 header:
-overlay_color: "#000"
-overlay_filter: "0.5"
-overlay_image: /assets/images/trinity.jpg
-caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
-excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/trinity.jpg
+  caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
+  excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
   alt: "Semantic Segmentation"

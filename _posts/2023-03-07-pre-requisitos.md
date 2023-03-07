@@ -1,5 +1,6 @@
 ---
 title: "Pre Requisitos"
+permalink: /pre-requisitos/
 excerpt: "Pre requirements to be a GDE"
 layouts_gallery:
 - url: /assets/images/mm-layout-splash.png
@@ -15,10 +16,12 @@ layouts_gallery:
   toc: true
 ---
 
+{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
 
-# [Pré requisitos](https://drive.google.com/file/d/10BX6nebskPv8Pc3gscSV1A35LwoFOP_y/view?hl=pt-br)
 
-## Para se tornar uma Google Developer Expert (GDE), é necessário atender aos seguintes pré-requisitos:
+## [Pré requisitos](https://drive.google.com/file/d/10BX6nebskPv8Pc3gscSV1A35LwoFOP_y/view?hl=pt-br)
+
+### Para se tornar uma Google Developer Expert (GDE), é necessário atender aos seguintes pré-requisitos:
 
 ### Conhecimento profundo em uma ou mais tecnologias da Google: você deve ter uma compreensão aprofundada de pelo menos uma tecnologia da Google, como:
 
