@@ -108,27 +108,27 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Ana Ludmila"
+  avatar           : "/assets/images/ana.jpeg"
+  bio              : "333 / 5.000
+Resultados de tradução
+Resultado da tradução
+I'm a mobile developer passionate about the **Android** world and an expert in the **Kotlin language**. With a few years of experience in mobile app development, I have the ability to turn ideas into reality and deliver innovative solutions. Welcome to my world of creation and development!"
+  location         : "Belo Horizonte - Minas Gerais - Brazil"
+  email            : "aludmila.gdev@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:aludmila.gdev@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://aludmila-gdev.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      # url: "https://github.com/aludmila-gdev"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
