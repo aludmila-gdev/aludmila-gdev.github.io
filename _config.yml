@@ -110,12 +110,7 @@ analytics:
 author:
   name             : "Ana Ludmila"
   avatar           : "/assets/images/ana.jpeg"
-  bio              : "I'm a mobile developer passionate
-  about the **Android** world and an expert in the **Kotlin** language.
-  With a few years of experience in mobile app development,
-  I have the ability to turn ideas into reality and deliver
-  innovative solutions.
-  Welcome to my world of creation and development!"
+  bio              : "***"
   location         : "Belo Horizonte - Minas Gerais - Brazil"
   email            : "aludmila.gdev@gmail.com"
   links:
