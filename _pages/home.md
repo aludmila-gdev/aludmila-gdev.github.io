@@ -1,14 +1,14 @@
 ---
-layout: single
+layout: splash
 read_time: false
 comments: false
 share: false
-title: <br><br><br><br><br><br>Ana Ludmila
+title: Home
 permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/500x300.png
+  overlay_image: /assets/images/image2png
   caption: "Photo: )"
   excerpt: ""
 feature_row:
