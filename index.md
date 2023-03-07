@@ -1,20 +1,43 @@
 ---
+layout: single
+read_time: false
+comments: false
+share: false
+title: <br><br><br><br><br><br>Ana Ludmila
 permalink: /
-title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
-last_modified_at: 2022-05-27T11:59:26-04:00
-toc: true
+header:
+overlay_color: "#000"
+overlay_filter: "0.5"
+overlay_image: /assets/images/image1.jpg
+excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
+feature_row:
+- image_path: /assets/images/uncertainty.jpg
+  alt: "Semantic Segmentation"
+  title: ""
+  url: "blog"
+  btn_label: "Blog"
+  btn_class: "btn--inverse"
+- image_path: /assets/images/image2.png
+  title: ""
+  url: "talks"
+  btn_label: "Talks"
+  btn_class: "btn--inverse"
+- image_path: /assets/images/image3.jpg
+  alt: "CVPR 2017 Conference Poster"
+  title: ""
+  url: "publications"
+  btn_label: "Publications"
+  btn_class: "btn--inverse"
 ---
+
+## Brief Bio
+I'm a mobile developer passionate about the **Android** world and an expert in the **Kotlin** language. With a few years of experience in mobile app development, I have the ability to turn ideas into reality and deliver innovative solutions. Welcome to my world of creation and development!
+<div id='featured'></div>
+
+{% include feature_row %}
+
+
+
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
