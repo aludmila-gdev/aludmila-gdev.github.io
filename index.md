@@ -8,7 +8,7 @@ permalink: /
 header:
 overlay_color: "#000"
 overlay_filter: "0.5"
-overlay_image: /assets/images/image1.jpg
+overlay_image: /assets/images/home-page.png
 excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/uncertainty.jpg
