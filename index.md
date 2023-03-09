@@ -7,7 +7,6 @@ title: <br><br><br><br><br><br>Ana Ludmila
 permalink: /
 header:
   overlay_image: /assets/images/aludmila-dev.png
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg

@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-#
+#   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
@@ -30,8 +30,8 @@ description              : "Exploring Kotlin for knowledge and fascinating disco
 url                      : "https://aludmila-gdev.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "aludmila-gdev/aludmila-gdev.github.io"
-teaser                   : "/assets/images/500x300.png"
-logo                     : "/assets/images/88x88.png"
+teaser                   : "/assets/images/aludmila-dev-500x300.png"
+logo                     : "/assets/images/aludmila-dev-88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
