@@ -1,13 +1,11 @@
 # main links
 main:
-  - title: "Pets"
-    url: /pets/
-  - title: "Tutorials"
-    url: /year-archive/
   - title: "About Me"
     url: /about/
-
-
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Cheatsheet"
+    url: /cheatsheet/
 
 # documentation links
 docs:
