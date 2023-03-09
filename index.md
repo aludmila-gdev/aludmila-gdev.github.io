@@ -3,7 +3,7 @@ layout: home
 read_time: false
 comments: false
 share: false
-title: <br><br><br><br><br><br>Ana Ludmila
+title: <br><br><br><br>Welcome to my world of creation and mobile development!
 permalink: /
 header:
   overlay_image: /assets/images/aludmila-gdev-banner.png
@@ -29,7 +29,7 @@ feature_row:
 ---
 
 ## Brief Bio
-I'm a mobile developer passionate about the **Android** world and an expert in the **Kotlin** language. With a few years of experience in mobile app development, I have the ability to turn ideas into reality and deliver innovative solutions. Welcome to my world of creation and development!
+I'm a mobile developer passionate about the **Android** world and an expert in the **Kotlin** language. With a few years of experience in mobile app development, I have the ability to turn ideas into reality and deliver innovative solutions.
 <div id='featured'></div>
 
 [Go To Post Template]({{ "/post-tutorial-template/" | relative_url }}){: .btn .btn--success .btn--large}
