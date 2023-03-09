@@ -12,9 +12,9 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air"
+minimal_mistakes_skin    : "plum"
 header:
-  image: "/assets/images/Wallpaper.png"
+  image: "/assets/images/aludmila-dev.png"
 
 favicon: "/assets/images/favicon.ico"
 
