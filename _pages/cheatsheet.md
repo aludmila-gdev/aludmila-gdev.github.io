@@ -1,8 +1,14 @@
 ---
-permalink: /cheatsheet
+---
+layout: archive
+permalink: /cheatsheet/
+author_profile: true
+header:
+  overlay_image: /assets/images/cheatsheet-text-on-blue.png
 title: "Layout: Post with Nested Table of Contents"
 tags:
-  - table of contents
+  - cheatsheet
+  - kotlin
 toc: true
 ---
 
