@@ -1,5 +1,6 @@
 ---
 layout: home
+author_profile: false
 read_time: false
 comments: false
 share: false
@@ -9,6 +10,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/home-page.png
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
