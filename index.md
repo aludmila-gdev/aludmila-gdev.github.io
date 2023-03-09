@@ -6,10 +6,10 @@ share: false
 title: <br><br><br><br><br><br>Ana Ludmila
 permalink: /
 header:
-overlay_color: "#000"
-overlay_filter: "0.5"
-overlay_image: /assets/images/home-page.png
-excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/home-page.png
+  excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
   alt: "Semantic Segmentation"
@@ -35,7 +35,7 @@ I'm a mobile developer passionate about the **Android** world and an expert in t
 <div id='featured'></div>
 
 
-[Go To Post Template]({{ "/_posts/2023-03-09-post-tutorial-template/" | relative_url }}){: .btn .btn--success .btn--large}
+[Go To Post Template]({{ "/post-tutorial-template/" | relative_url }}){: .btn .btn--success .btn--large}
 
 ## Notable Features
 
@@ -64,6 +64,7 @@ I'm a mobile developer passionate about the **Android** world and an expert in t
 
 For even more demo pages check the [posts archive][year-archive].
 
+[post-tutorial-template]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
 [header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
 [gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
 [html-tags-post]: {{ "" | relative_url }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
