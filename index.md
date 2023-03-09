@@ -9,8 +9,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/home-page.png
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_image: /assets/images/orion-nebula.jpg
   excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
@@ -36,8 +35,11 @@ feature_row:
 I'm a mobile developer passionate about the **Android** world and an expert in the **Kotlin** language. With a few years of experience in mobile app development, I have the ability to turn ideas into reality and deliver innovative solutions. Welcome to my world of creation and development!
 <div id='featured'></div>
 
-
 [Go To Post Template]({{ "/post-tutorial-template/" | relative_url }}){: .btn .btn--success .btn--large}
+
+<div id='featured'></div>
+
+{% include feature_row %}
 
 ## Notable Features
 
