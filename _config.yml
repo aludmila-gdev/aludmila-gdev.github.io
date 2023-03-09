@@ -14,7 +14,7 @@
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air"
 header:
-  image: "/assets/images/500x300.png"
+  image: "/assets/images/Wallpaper.png"
 
 favicon: "/assets/images/favicon.ico"
 
