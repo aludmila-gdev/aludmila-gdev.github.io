@@ -10,15 +10,39 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      show_date: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+
+# Theme
+# "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # theme                  : "minimal-mistakes-jekyll"
+
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air"
 header:
   image: "/assets/images/aludmila-dev.png"
+  favicon: "/assets/images/favicon.ico"
 
-favicon: "/assets/images/favicon.ico"
-
-# "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -26,8 +50,8 @@ title                    : "Home"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ana Ludmila"
-description              : "Exploring Kotlin for knowledge and fascinating discoveries!"
-url                      : "https://aludmila-gdev.github.io/"
+description              : "Exploring Mobile Development for knowledge and fascinating discoveries!"
+url                      : "www.aludmila-gdev.com/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "aludmila-gdev/aludmila-gdev.github.io"
 teaser                   : "/assets/images/aludmila-dev-500x300.png"
@@ -106,30 +130,29 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   name             : "Ana Ludmila"
   avatar           : "/assets/images/ana.jpeg"
-  bio              : "***"
+  bio              : "Exploring the universe of Mobile development"
   location         : "Brazil"
   email            : "aludmila.gdev@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:aludmila.gdev@gmail.com"
+      url: "mailto:aludmila.gdev@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://aludmila-gdev.github.io"
+      url: "www.aludmila-gdev.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/aludmila_gdev"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/aludmila-gdev"
+      url: "https://github.com/aludmila-gdev"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/aludmila.gdev"
 
 # Site Footer
 footer:
@@ -152,7 +175,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
 
 # Reading Files
 include:
@@ -191,14 +213,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -211,19 +231,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -240,7 +257,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -279,25 +295,3 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-      show_date: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      show_date: true
