@@ -1,6 +1,4 @@
 ---
----
-layout: archive
 permalink: /cheatsheet/
 author_profile: true
 header:

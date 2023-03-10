@@ -6,7 +6,7 @@ share: false
 title: <br><br><br><br>Welcome to my world of creation and mobile development!
 permalink: /
 header:
-  overlay_image: /assets/images/aludmila-gdev-banner.png
+  overlay_image: /assets/images/aludmila-gdev-banner.gif
   excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
