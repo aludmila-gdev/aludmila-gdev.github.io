@@ -28,7 +28,7 @@ feature_row:
 I'm a mobile developer passionate about the **Android** world and an expert in the **Kotlin** language. With a few years of experience in mobile app development, I have the ability to turn ideas into reality and deliver innovative solutions.
 <div id='featured'></div>
 
-[Go To Post Template]({{ "/post-tutorial-template/" | relative_url }}){: .btn .btn--success .btn--large}
+[Go To Post Template]({{ "/gallery-post/" | relative_url }}){: .btn .btn--success .btn--large}
 
 <div id='featured'></div>
 
@@ -61,7 +61,6 @@ I'm a mobile developer passionate about the **Android** world and an expert in t
 
 For even more demo pages check the [posts archive][year-archive].
 
-[post-tutorial-template]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
 [header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
 [gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
 [html-tags-post]: {{ "" | relative_url }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
