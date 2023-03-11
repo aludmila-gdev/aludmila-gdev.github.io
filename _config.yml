@@ -138,12 +138,6 @@ author:
   location         : "Brazil"
   email            : "aludmila.gdev@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:aludmila.gdev@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "www.aludmila-gdev.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/aludmila_gdev"
