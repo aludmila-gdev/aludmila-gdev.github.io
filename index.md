@@ -12,6 +12,21 @@ feature_row:
   url: "publications"
   btn_label: "Publications"
   btn_class: "btn--inverse"
+- image_path: /assets/images/image3.jpg
+  title: ""
+  url: "publications"
+  btn_label: "Publications"
+  btn_class: "btn--inverse"
+- image_path: /assets/images/image3.jpg
+  title: ""
+  url: "publications"
+  btn_label: "Publications"
+  btn_class: "btn--inverse"
+- image_path: /assets/images/image3.jpg
+  title: ""
+  url: "publications"
+  btn_label: "Publications"
+  btn_class: "btn--inverse"
 tags:
 - Ana Ludmila
 - aludmila-gdev
