@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /
 feature_row:
 - image_path: /assets/images/image3.jpg
