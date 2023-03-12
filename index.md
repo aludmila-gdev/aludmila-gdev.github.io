@@ -5,17 +5,6 @@ comments: false
 share: false
 permalink: /
 feature_row:
-- image_path: /assets/images/image1.jpg
-  alt: "Semantic Segmentation"
-  title: ""
-  url: "blog"
-  btn_label: "Blog"
-  btn_class: "btn--inverse"
-- image_path: /assets/images/image2.png
-  title: ""
-  url: "talks"
-  btn_label: "Talks"
-  btn_class: "btn--inverse"
 - image_path: /assets/images/image3.jpg
   title: ""
   url: "publications"
