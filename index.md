@@ -17,7 +17,6 @@ feature_row:
   btn_label: "Talks"
   btn_class: "btn--inverse"
 - image_path: /assets/images/image3.jpg
-  alt: "CVPR 2017 Conference Poster"
   title: ""
   url: "publications"
   btn_label: "Publications"
