@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 permalink: /
 feature_row:
 - image_path: /assets/images/image3.jpg
