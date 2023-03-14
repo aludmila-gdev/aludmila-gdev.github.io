@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: splash
 read_time: false
 comments: false
 share: false
-title: <br><br><br><br>Sharing with the world my enthusiasm for creating innovative and amazing mobile solutions!!
+title: <br><br><br><br>Let's go to create innovative and surprising mobile solutions!
 title_style: "text-align:center"
 permalink: /
 header:
@@ -31,6 +31,9 @@ tags:
 - aludmila-gdev
 - home
 ---
+
+
+{% include feature_row %}
 
 "Com o Kotlin, o desenvolvimento mobile nunca foi tão empolgante e desafiador! Sua sintaxe intuitiva e recursos avançados abrem caminho para a criação de aplicativos incríveis, que vão surpreender e encantar os usuários. Viva a emoção de criar soluções mobile inovadoras com Kotlin! 🚀📱💻"
 
@@ -102,4 +105,3 @@ I'm a mobile developer passionate about the **Android** world and an expert in t
 
 <div id='featured'></div>
 
-{% include feature_row %}
