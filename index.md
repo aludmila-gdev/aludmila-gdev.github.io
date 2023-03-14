@@ -47,34 +47,3 @@ With years of experience in the area, I dedicated myself to exploring all the po
 
 {% include feature_row %}
 
-## Blog: Uma seção dedicada às suas postagens de blog. Isso permite que os leitores saibam que tipo de conteúdo podem esperar encontrar em seu site e incentiva-os a explorar mais.
-
-## Contato: Uma seção que permite que os leitores se conectem com você. Isso pode incluir um formulário de contato ou informações de contato, como seu endereço de e-mail ou perfil nas redes sociais.
-detalhes do autor na página about
-
-## Call-to-Action: Uma seção que incentiva os leitores a se engajarem com o seu site, seja assinando sua newsletter, seguindo você nas redes sociais ou explorando mais conteúdo em seu site.
-Chamadas para ação claras: Chamadas para ação claras, como botões de “Compre agora” ou “Inscreva-se”, podem ajudar a incentivar os visitantes a tomar uma ação específica em seu site.
-Atualizações recentes ou destaques: Incluir atualizações recentes ou destaques em sua home page pode ajudar a manter seu site atualizado e incentivar os visitantes a explorar mais do seu conteúdo.
-
-
-## Ao criar essas seções, certifique-se de torná-las visualmente atraentes e fáceis de navegar. Use imagens de alta qualidade e uma paleta de cores agradável para os olhos. Além disso, certifique-se de que seu site seja responsivo e se adapte a diferentes dispositivos e tamanhos de tela, para que os leitores possam ter uma experiência agradável em qualquer dispositivo que estejam usando.
-
-## Um menu de navegação fácil de usar: Um menu de navegação fácil de usar pode ajudar os visitantes a encontrar o conteúdo que estão procurando em seu site. Certifique-se de que o menu seja claro e organizado, para que os visitantes possam navegar facilmente pelo seu site.
-
-
-
-
-
-
-
-
-feature_row
-
-
-## Brief Bio
-I'm a mobile developer passionate about the **Android** world and an expert in the **Kotlin** language. With a few years of experience in mobile app development, I have the ability to turn ideas into reality and deliver innovative solutions.
-<div id='featured'></div>
-
-
-<div id='featured'></div>
-
