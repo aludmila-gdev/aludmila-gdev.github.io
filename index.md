@@ -1,8 +1,10 @@
 ---
 layout: splash
+author_profile: false
 read_time: false
 comments: false
 share: false
+hidden: true
 title: <br><br><br><br>Let's go to create innovative and surprising mobile solutions!
 title_style: "text-align:center"
 permalink: /
@@ -10,22 +12,28 @@ header:
   overlay_image: /assets/images/image-banner.jpeg
   excerpt: "Lead Mobile Developer at @Thoughtworks<br><br>"
 feature_row:
-- image_path: /assets/images/image1.jpg
-  alt: "Semantic Segmentation"
-  title: ""
-  url: "blog"
-  btn_label: "Blog"
-  btn_class: "btn--inverse"
-- image_path: /assets/images/image2.png
-  title: ""
-  url: "talks"
-  btn_label: "Talks"
-  btn_class: "btn--success .btn--large"
+- image_path: /assets/images/image2.jpg
+  alt: "customizable"
+  title: "Super customizable"
+  excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+  url: "/docs/configuration/"
+  btn_class: "btn--primary"
+  btn_label: "Learn more"
 - image_path: /assets/images/image3.jpg
-  title: ""
-  url: "publications"
-  btn_label: "Publications"
-  btn_class: "btn--success .btn--large"
+  alt: "customizable"
+  title: "Super customizable"
+  excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+  url: "/docs/configuration/"
+  btn_class: "btn--primary"
+  btn_label: "Learn more"
+- image_path: /assets/images/image4.jpg
+  alt: "customizable"
+  title: "Super customizable"
+  excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+  url: "/docs/configuration/"
+  btn_class: "btn--primary"
+  btn_label: "Learn more"
+
 tags:
 - Ana Ludmila
 - aludmila-gdev
