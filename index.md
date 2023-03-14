@@ -13,22 +13,22 @@ header:
 feature_row:
 - image_path: /assets/images/image1.jpg
   alt: "posts"
-  title: ""
-  excerpt: "If you're looking for valuable information about native Android mobile app development, you've come to the right place! I cover everything from basic concepts to more advanced techniques, bringing insights and useful tips that can be immediately applied to your project. [...]"
+  title: "Posts about mobile development"
+  excerpt: ""
   url: "/year-archive/"
   btn_class: "btn--primary"
   btn_label: "Keep reading"
 - image_path: /assets/images/image2.jpg
   alt: "Keep reading!"
-  title: ""
-  excerpt: "My Journey to GDE"
+  title: "My Journey to GDE"
+  excerpt: ""
   url: "/road-to-gde/"
   btn_class: "btn--primary"
   btn_label: "See More!"
 - image_path: /assets/images/image3.jpg
   alt: "See More!"
-  title: ""
-  excerpt: "My Journey in Kotlin Multiplatform Mobile"
+  title: "My Journey in Kotlin Multiplatform Mobile"
+  excerpt: ""
   url: "/kmm/"
   btn_class: "btn--primary"
   btn_label: "Come with me!"
