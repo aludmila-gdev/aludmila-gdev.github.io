@@ -8,7 +8,7 @@ hidden: true
 title: <br><br><br><br><br>Let's go to create innovative and surprising mobile solutions!
 permalink: /
 header:
-  overlay_image: /assets/images/image-banner.jpeg
+  overlay_image: /assets/images/banner.jpg
   excerpt: "Lead Mobile Developer at @Thoughtworks<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
