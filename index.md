@@ -13,25 +13,25 @@ header:
 feature_row:
 - image_path: /assets/images/image1.jpg
   alt: "posts"
-  title: "Go To Posts"
+  title: ""
   excerpt: "If you're looking for valuable information about native Android mobile app development, you've come to the right place! I cover everything from basic concepts to more advanced techniques, bringing insights and useful tips that can be immediately applied to your project."
-  url: "/docs/configuration/"
+  url: "/year-archive/"
   btn_class: "btn--primary"
-  btn_label: "Learn more"
+  btn_label: "Go To Posts"
 - image_path: /assets/images/image2.jpg
   alt: "customizable"
-  title: "My journey towards google developers experts"
+  title: ""
   excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
   url: "/docs/configuration/"
   btn_class: "btn--primary"
-  btn_label: "Learn more"
+  btn_label: "My journey towards google developers experts"
 - image_path: /assets/images/image3.jpg
   alt: "customizable"
   title: "Super customizable"
   excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
   url: "/docs/configuration/"
   btn_class: "btn--primary"
-  btn_label: "Learn more"
+  btn_label: "Start Now"
 
 tags:
 - Ana Ludmila
