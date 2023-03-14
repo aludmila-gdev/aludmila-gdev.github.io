@@ -47,29 +47,6 @@ With years of experience in the area, I dedicated myself to exploring all the po
 
 {% include feature_row %}
 
-
-## Apresentação: Uma seção de introdução que apresente você e o propósito do seu site pessoal. Essa seção deve ser clara e concisa, dando aos leitores uma ideia geral do que esperar do seu site.
-
-Um resumo claro do seu conteúdo: É importante que os visitantes entendam imediatamente o que seu site oferece e como isso pode ser útil para eles. Um resumo claro e conciso pode ajudar a transmitir sua mensagem de forma eficaz.
-
-Ao incluir esses elementos em sua home page, você pode criar uma experiência atraente e cativante para os visitantes do seu site. Lembre-se de manter o design limpo e profissional para transmitir uma imagem de confiança e credibilidade.
-
-A página inicial do seu site é a primeira impressão que os visitantes terão do seu negócio ou projeto. É importante que essa página seja atrativa e cativante para que os visitantes se interessem pelo seu conteúdo e desejem explorar mais do seu site. Aqui estão algumas coisas que você pode incluir em sua home page para torná-la mais atrativa e cativante:
-
-Olá, seja bem-vindo(a) ao meu site! Aqui, eu compartilho minhas experiências no desenvolvimento de aplicativos móveis Android nativo e uso do Kotlin Multplataforma. Com anos de experiência na área, eu me dediquei a explorar todas as possibilidades que essa linguagem tem a oferecer e as formas de utilizar o Kotlin Multplataforma para desenvolver aplicativos móveis eficientes e de alta qualidade.
-
-Se você está procurando informações valiosas sobre o desenvolvimento de aplicativos móveis Android nativo, está no lugar certo! Eu abordo desde os conceitos básicos até as técnicas mais avançadas, trazendo insights e dicas úteis que podem ser aplicados imediatamente em seu projeto.
-
-E não para por aí! Além de compartilhar conhecimento, eu também ofereço serviços de consultoria personalizados para ajudar a tirar seu projeto do papel. Se você deseja desenvolver um aplicativo móvel eficiente e de alta qualidade, não hesite em entrar em contato comigo.
-
-Junte-se a mim nessa jornada pelo desenvolvimento de aplicativos móveis e descubra como o Kotlin Multplataforma pode ajudá-lo(a) a criar aplicativos incríveis para dispositivos móveis Android nativo!
-
-## Sobre mim: Uma seção que fornece mais informações sobre você, sua formação, habilidades e experiência profissional. Essa seção ajuda os leitores a entenderem melhor quem você é e porque seu site é relevante para eles.
-
-Menu na barra superior
-
-##Portfólio: Uma seção que apresenta seus trabalhos, projetos e realizações. Isso pode incluir amostras de seu trabalho passado, artigos ou postagens de blog que você escreveu, ou quaisquer outras coisas que possam ajudar os leitores a entender suas habilidades e interesses.
-
 ## Blog: Uma seção dedicada às suas postagens de blog. Isso permite que os leitores saibam que tipo de conteúdo podem esperar encontrar em seu site e incentiva-os a explorar mais.
 
 ## Contato: Uma seção que permite que os leitores se conectem com você. Isso pode incluir um formulário de contato ou informações de contato, como seu endereço de e-mail ou perfil nas redes sociais.
