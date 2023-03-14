@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Blog"
     url: /year-archive/
-  - title: "CheatSheet"
-    url: /cheatsheet/
+  - title: "By Subject"
+    url: /tags/
 
 # documentation links
 docs:
