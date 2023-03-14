@@ -5,7 +5,7 @@ read_time: false
 comments: false
 share: false
 hidden: true
-title: <br><br><br><br><br>L<br>et's go to create innovative and surprising mobile solutions!
+title: <br><br><br><br><br>Let's go to create innovative and surprising mobile solutions!
 permalink: /
 header:
   overlay_image: /assets/images/image-banner.jpeg
