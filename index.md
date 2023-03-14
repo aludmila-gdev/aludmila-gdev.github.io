@@ -14,24 +14,24 @@ feature_row:
 - image_path: /assets/images/image1.jpg
   alt: "posts"
   title: ""
-  excerpt: "If you're looking for valuable information about native Android mobile app development, you've come to the right place! I cover everything from basic concepts to more advanced techniques, bringing insights and useful tips that can be immediately applied to your project."
+  excerpt: "If you're looking for valuable information about native Android mobile app development, you've come to the right place! I cover everything from basic concepts to more advanced techniques, bringing insights and useful tips that can be immediately applied to your project. [...]"
   url: "/year-archive/"
   btn_class: "btn--primary"
-  btn_label: "Go To Posts"
+  btn_label: "Keep reading"
 - image_path: /assets/images/image2.jpg
-  alt: "customizable"
+  alt: "Keep reading!"
   title: ""
-  excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-  url: "/docs/configuration/"
+  excerpt: "My Journey to GDE"
+  url: "/road-to-gde/"
   btn_class: "btn--primary"
-  btn_label: "My journey towards google developers experts"
+  btn_label: "See More!"
 - image_path: /assets/images/image3.jpg
-  alt: "customizable"
-  title: "Super customizable"
-  excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-  url: "/docs/configuration/"
+  alt: "See More!"
+  title: ""
+  excerpt: "My Journey in Kotlin Multiplatform Mobile"
+  url: "/kmm/"
   btn_class: "btn--primary"
-  btn_label: "Start Now"
+  btn_label: "Come with me!"
 
 tags:
 - Ana Ludmila
