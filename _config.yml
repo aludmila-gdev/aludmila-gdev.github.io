@@ -46,7 +46,7 @@ header:
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ana Ludmila"
+title                    : #"Ana Ludmila"
 title_separator          : "|"
 subtitle                 : "Exploring Mobile Development for knowledge and fascinating discoveries!"
 name                     : #"Ana Ludmila"
