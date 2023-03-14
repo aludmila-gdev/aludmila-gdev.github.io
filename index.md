@@ -3,11 +3,12 @@ layout: single
 read_time: false
 comments: false
 share: false
-title: <br><br><br><br>Welcome to my world of creation and mobile development!
+title: <br><br><br><br>Sharing with the world my enthusiasm for creating innovative and amazing mobile solutions!!
+title_style: "text-align:center"
 permalink: /
 header:
   overlay_image: /assets/images/image-banner.jpeg
-  excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
+  excerpt: "Lead Mobile Developer at @Thoughtworks<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
   alt: "Semantic Segmentation"
@@ -31,7 +32,20 @@ tags:
 - home
 ---
 
+"Com o Kotlin, o desenvolvimento mobile nunca foi tão empolgante e desafiador! Sua sintaxe intuitiva e recursos avançados abrem caminho para a criação de aplicativos incríveis, que vão surpreender e encantar os usuários. Viva a emoção de criar soluções mobile inovadoras com Kotlin! 🚀📱💻"
+
+
+Com o desenvolvimento mobile em Android e Kotlin multiplataforma, você tem a oportunidade de criar experiências incríveis que vão encantar e transformar a vida das pessoas, esteja elas onde estiverem. É a magia da tecnologia ao alcance de suas mãos! ✨📲💻
+
+ vivenciando a emoção de criar soluções mobile inovadoras e incríveis!
+
+Compartilhando com o mundo meu entusiasmo pela criação de soluções móveis inovadoras e surpreendentes!
+
+Compartilhando com o mundo a emoção de criar soluções móveis inovadoras e surpreendentes!
+
 Ao criar a homepage do seu site pessoal, você deve considerar as seguintes seções para torná-lo mais atraente para os leitores que estão tendo seu primeiro contato:
+
+Com o desenvolvimento mobile em Android e Kotlin, você tem a oportunidade de criar experiências incríveis que vão encantar e transformar a vida das pessoas, esteja elas onde estiverem. É a magia da tecnologia ao alcance de suas mãos! ✨📲💻"
 
 ## Apresentação: Uma seção de introdução que apresente você e o propósito do seu site pessoal. Essa seção deve ser clara e concisa, dando aos leitores uma ideia geral do que esperar do seu site.
 Um título atraente: Um título criativo e cativante pode chamar a atenção dos visitantes e incentivá-los a explorar mais o seu site.
