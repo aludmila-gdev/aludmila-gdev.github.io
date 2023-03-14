@@ -20,7 +20,7 @@ feature_row:
   btn_label: "Learn more"
 - image_path: /assets/images/image2.jpg
   alt: "customizable"
-  title: "Super customizable"
+  title: "My journey towards google developers experts"
   excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
   url: "/docs/configuration/"
   btn_class: "btn--primary"
