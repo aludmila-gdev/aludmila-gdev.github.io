@@ -6,7 +6,7 @@ share: false
 title: <br><br><br><br>Welcome to my world of creation and mobile development!
 permalink: /
 header:
-  overlay_image: /assets/images/aludmila-gdev-banner.gif
+  overlay_image: /assets/images/image-banner.jpeg
   excerpt: "CEO at Wayve; former Research Fellow at the University of Cambridge<br><br>"
 feature_row:
 - image_path: /assets/images/image1.jpg
@@ -19,12 +19,12 @@ feature_row:
   title: ""
   url: "talks"
   btn_label: "Talks"
-  btn_class: "btn--inverse"
+  btn_class: "btn--success .btn--large"
 - image_path: /assets/images/image3.jpg
   title: ""
   url: "publications"
   btn_label: "Publications"
-  btn_class: "btn--inverse"
+  btn_class: "btn--success .btn--large"
 tags:
 - Ana Ludmila
 - aludmila-gdev
@@ -77,7 +77,7 @@ Atualizações recentes ou destaques: Incluir atualizações recentes ou destaqu
 
 
 
-
+feature_row
 
 
 ## Brief Bio
