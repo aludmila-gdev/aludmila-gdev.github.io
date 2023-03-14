@@ -46,11 +46,11 @@ header:
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Ana Ludmila"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Exploring Mobile Development for knowledge and fascinating discoveries!"
 name                     : "Ana Ludmila"
-description              : "Exploring Mobile Development for knowledge and fascinating discoveries!"
+description              : #"Exploring Mobile Development for knowledge and fascinating discoveries!"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "aludmila-gdev/aludmila-gdev.github.io"
 teaser                   : "/assets/images/aludmila-dev-500x300.png"
