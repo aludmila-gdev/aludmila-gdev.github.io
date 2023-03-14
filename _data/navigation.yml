@@ -4,7 +4,7 @@ main:
     url: /about/
   - title: "Blog"
     url: /year-archive/
-  - title: "By Subject"
+  - title: "Tags"
     url: /tags/
 
 # documentation links
