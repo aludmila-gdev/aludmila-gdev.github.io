@@ -51,7 +51,7 @@ title_separator          : "|"
 subtitle                 : "HOME"
 name                     : #"Ana Ludmila"
 description              : #"Exploring Mobile Development for knowledge and fascinating discoveries!"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/"
 repository               : "aludmila-gdev/aludmila-gdev.github.io"
 teaser                   : "/assets/images/teaser-500x300.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
