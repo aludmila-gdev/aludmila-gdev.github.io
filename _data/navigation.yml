@@ -4,10 +4,10 @@ main:
       url: /
   - title: "About Me"
     url: /about/
-  - title: "Posts"
+  - title: "Blog"
     url: /year-archive/
-  - title: "CheatSheet"
-    url: /cheatsheet/
+  - title: "Tags"
+    url: /tags/
 
 # documentation links
 docs:
