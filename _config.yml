@@ -48,13 +48,13 @@ header:
 locale                   : "en-US"
 title                    : "aludmila-gdev"
 title_separator          : "|"
-subtitle                 : "HOME"
+subtitle                 : "Exploring Mobile Development for knowledge and fascinating discoveries!"
 name                     : #"Ana Ludmila"
 description              : #"Exploring Mobile Development for knowledge and fascinating discoveries!"
 baseurl                  : "/"
 repository               : "aludmila-gdev/aludmila-gdev.github.io"
 teaser                   : "/assets/images/teaser-500x300.jpg"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -133,7 +133,7 @@ analytics:
 author:
   name             : "Ana Ludmila"
   avatar           : "/assets/images/ana.jpeg"
-  bio              : "Exploring the universe of Mobile development"
+  bio              : "Lead Mobile Developer at @Thoughtworks"
   location         : "Brazil"
   email            : "aludmila.gdev@gmail.com"
   links:
