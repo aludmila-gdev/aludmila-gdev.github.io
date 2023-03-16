@@ -1,8 +1,10 @@
 ---
 header:
   teaser: "assets/images/google.jpg"
+  overlay_image: /assets/images/wip.jpg
+  excerpt: "Lead Mobile Developer at @Thoughtworks<br><br>"
 permalink: /road-to-gde/
-title: "Road To Google Developer Expert"
+title: <br><br><br><br><br>Oops... This page is still under construction! Come back later!
 excerpt: ""
 layouts_gallery:
 - url: /assets/images/mm-layout-splash.png
@@ -20,7 +22,7 @@ layouts_gallery:
 
 A variety of common markup showing how the theme styles them.
 
-## Header two
+## Road To Google Developer Expert
 
 ### Header three
 

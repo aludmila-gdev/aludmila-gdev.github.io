@@ -1,8 +1,11 @@
 ---
-teaser: "assets/images/google.jpg"
+teaser: "assets/images/about.jpg"
 permalink: /about/
 title: "About me"
 last_modified_at: 2023-03-16T06:59:26-04:00
+header:
+  overlay_image: /assets/images/about.jpg
+  excerpt: "Lead Mobile Developer at @Thoughtworks<br><br>"
 
 ---
 
