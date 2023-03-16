@@ -1,9 +1,12 @@
 ---
 header:
   teaser: "assets/images/google.jpg"
-permalink: /kmm/
-title: "Road To Google Developer Expert"
+  overlay_image: /assets/images/wip.jpg
+  excerpt: "Lead Mobile Developer at @Thoughtworks"
+permalink: /road-to-gde/
+title: "Oops... This page is still under construction!"
 excerpt: ""
+permalink: /kmm/
 layouts_gallery:
 - url: /assets/images/mm-layout-splash.png
   image_path: /assets/images/mm-layout-splash.png
