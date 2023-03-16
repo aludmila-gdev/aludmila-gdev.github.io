@@ -1,22 +1,40 @@
 ---
+header:
+teaser: "assets/images/google.jpg"
 permalink: /about/
-title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
-last_modified_at: 2022-05-27T11:59:26-04:00
+title: "Road To Google Developer Expert"
+excerpt: ""
+last_modified_at: 2023-03-15T11:59:26-04:00
 toc: true
+
 ---
+# About me
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+I have been working as a technologist for over 13 years, most of that time as a software quality specialist
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
-##Portfólio: Uma seção que apresenta seus trabalhos, projetos e realizações. Isso pode incluir amostras de seu trabalho passado, artigos ou postagens de blog que você escreveu, ou quaisquer outras coisas que possam ajudar os leitores a entender suas habilidades e interesses.
+Over the past three years, I've shifted my career focus to working with mobile apps, mainly working on Android using Kotlin.
+
+Creator and maintainer of the Kranberry library, aimed at making end-to-end writing tests for Android apps more productive.
+
+An active person in the local community, passionate about building and applying knowledge collectively and creatively!
+
+
+
+
+
+
+
+
+
+
+
+
+Destaque suas habilidades e interesses: Compartilhe informações sobre suas habilidades e interesses. Isso pode incluir suas áreas de especialização, seus hobbies e paixões, e quaisquer realizações relevantes que você tenha.
+
+Adicione uma foto: Adicionar uma foto sua é uma ótima maneira de personalizar sua página "Sobre mim" e ajudar os leitores a se conectarem com você.
+
+Seja autêntico: Certifique-se de que sua página "Sobre mim" reflita sua personalidade e voz autênticas. Use um tom casual e descontraído para se conectar com seus leitores.
+
+Inclua sua missão: Compartilhe sua missão e propósito para o seu blog. Isso pode ajudar os leitores a entender por que você criou seu blog e o que esperar dele.
+
+Atualize regularmente: Lembre-se de atualizar sua página "Sobre mim" regularmente para refletir as mudanças em sua vida e no seu blog.
