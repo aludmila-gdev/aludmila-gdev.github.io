@@ -48,7 +48,7 @@ header:
 locale                   : "en-US"
 title                    : "aludmila-gdev"
 title_separator          : "|"
-subtitle                 : "Exploring Mobile Development for knowledge and fascinating discoveries!"
+subtitle                 : "HOME"
 name                     : #"Ana Ludmila"
 description              : #"Exploring Mobile Development for knowledge and fascinating discoveries!"
 baseurl                  : "/"

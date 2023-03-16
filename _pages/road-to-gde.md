@@ -4,7 +4,7 @@ header:
   overlay_image: /assets/images/wip.jpg
   excerpt: "Lead Mobile Developer at @Thoughtworks<br><br>"
 permalink: /road-to-gde/
-title: <br><br><br><br><br>Oops... This page is still under construction! Come back later!
+title: "Oops... This page is still under construction!"
 excerpt: ""
 layouts_gallery:
 - url: /assets/images/mm-layout-splash.png
@@ -20,7 +20,7 @@ layouts_gallery:
   toc: true
 ---
 
-A variety of common markup showing how the theme styles them.
+Come back later!
 
 ## Road To Google Developer Expert
 
