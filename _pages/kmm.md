@@ -1,12 +1,11 @@
 ---
 header:
-  teaser: "assets/images/google.jpg"
+  teaser: "assets/images/kotlin-logo.png"
   overlay_image: /assets/images/wip.jpg
   excerpt: "Lead Mobile Developer at @Thoughtworks"
-permalink: /road-to-gde/
+permalink: /kmm/
 title: "Oops... This page is still under construction!"
 excerpt: ""
-permalink: /kmm/
 layouts_gallery:
 - url: /assets/images/mm-layout-splash.png
   image_path: /assets/images/mm-layout-splash.png
