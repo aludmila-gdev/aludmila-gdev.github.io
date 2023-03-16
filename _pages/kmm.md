@@ -1,7 +1,7 @@
 ---
 header:
   teaser: "assets/images/kotlin-logo.png"
-  overlay_image: /assets/images/wip.jpg
+  overlay_image: "/assets/images/wip.jpg"
   excerpt: "Lead Mobile Developer at @Thoughtworks"
 permalink: /kmm/
 title: "Oops... This page is still under construction!"
@@ -17,7 +17,7 @@ layouts_gallery:
   image_path: /assets/images/mm-layout-archive.png
   alt: "archive layout example"
   last_modified_at: 2022-05-27T11:59:26-04:00
-  toc: true
+toc: true
 ---
 
 A variety of common markup showing how the theme styles them.

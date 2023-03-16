@@ -1,7 +1,7 @@
 ---
 header:
   teaser: "assets/images/google.jpg"
-  overlay_image: /assets/images/wip.jpg
+  overlay_image: "/assets/images/wip.jpg"
   excerpt: "Lead Mobile Developer at @Thoughtworks<br><br>"
 permalink: /road-to-gde/
 title: "Oops... This page is still under construction!"
