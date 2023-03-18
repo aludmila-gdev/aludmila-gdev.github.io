@@ -1,9 +1,6 @@
 ---
 author_profile: false
-title: "Layout: Header Image and Text Readability"
-header:
-  image: /assets/images/unsplash-image-4.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+title: "How do I set up my native Android development environment."
 tags: 
   - sample post
   - readability
