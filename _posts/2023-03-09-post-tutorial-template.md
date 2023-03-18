@@ -7,41 +7,167 @@ tags:
   - test
 ---
 
-This is a sample post with a large feature image[^1] up top and tons of text. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. *Ea fashion axe [Marfa cillum aliquip](#). Retro Bushwick keytar cliche.* Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+# Android Environment Setup
 
-## Cupidatat 90's lo-fi authentic try-hard
+About
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. **[Terry Richardson](#) shabby chic +1**, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
+This repository is intended to share the way I like to configure my development environment to work with Android applications.
 
-  * Sartorial hoodie
-  * Labore viral forage
-  * Tote bag selvage
-  * DIY exercitation et id ugh tumblr church-key
+For this, I performed the steps on a computer with the Mac OS X system, however the available links will possibly have instructions to perform the steps on other platforms as well!
 
-Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
+## Summary
 
-Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven't heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney's Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.
+1. [Install Android Studio](#install-android-studio)
+2. [Install Java](#install-java)
+3. [Install Homebrew](#install-homebrew)
+4. [Install iTerm2](#install-iterm2)
+5. [Install zsh](#install-zsh)
+6. [Install oh-my-zsh](#install-oh-my-zsh)
+7. [Configure your .zshrc file](#configure-your-zshrc-file)
+8. [Install NVM](#install-nvm)
+8. [Configure GitHub credentials](#configure-github-credentials)
+9. [Clone a test project](#clone-a-test-project)
+10. [Open and run the test project](#open-and-run-the-test-project)
+10. [References](#references)
 
-## Forage occaecat cardigan qui
 
-Fashion axe hella gastropub lo-fi kogi 90's aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.
+## Install Android Studio
+1. [Download android studio]
+2. Install android studio
 
-> Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
+## Install Java
+1. Go to the [Previous Java releases] page and select the java versions you will need in your context. In my case, I'm going to download versions [Java SE Development Kit 8u251] and [Java SE Development Kit 11.0.2].
 
-Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney's next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney's sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.
+## Install Homebrew
+1. Open the terminal
+2. Paste the following command and [ENTER]
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+## Install iTerm2
+1. Open the terminal
+2. Paste the following command and [ENTER]
+```sh
+brew install iterm2
+```
 
-## Hoodie Duis
+## Install zsh
+1. Open the terminal
+2. Paste the following command and [ENTER]
+```sh
+brew install zsh
+```
 
-Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90's pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.
+## Install oh-my-zsh
+1. Open the terminal
+2. Paste the following command and [ENTER]
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
-### Thundercats Ho!
+## Configure your .zshrc file
+1. Open the terminal
+2. Copy the commands below respectively and [ENTER] after each of them
 
-Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney's seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.
+```sh
+cd
+```
 
-Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney's selfies. Odd Future Banksy non authentic.
+```sh
+open .
+```
+3. Now download this [.zshrc file] and copy it to the open folder.
+4. Fill in the following fields in the [.zshrc file] file with your github data
+```sh
+alias gitUserName="git config user.name \"Your Name\""
+alias gitUserEmail="git config user.email \"@gmail.com\""
+```
 
-Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.
+## Install NVM
+1. Open the iterm
+2. Copy the commands below respectively and [ENTER] after each of them
+```sh
+brew update
+```
+```sh
+ brew install nvm 
+```
+```sh
+ mkdir $HOME/.nvm
+```
 
-[^1]: Texture image courtesty of [Lovetextures](http://www.lovetextures.com/)
+## Configure GitHub credentials
+
+Now that your [Iterm] is configured, we can start using it instead of the standard terminal.
+
+1. Open the iterm
+2. Copy the commands below respectively and [ENTER] after each of them
+```sh
+ git config --global user.name "Your Name"
+```
+```sh
+ git config --global user.email "your_email@example.com"
+```
+
+3. Now you will need to follow the documentation available on github for [Generating a new SSH key and adding it to the ssh-agent] and [Adding a new SSH key to your GitHub account].
+
+## Clone a test project
+
+After setting up your ssh keys, you should be able to clone a test repository to build an Android project. To do this, run the following command in your iterm:
+```sh
+ git clone git@github.com:knludi/DiceRoller.git
+```
+If there is an error at this stage, you can search for an answer on Google, or contact me by sending the error message, and I can try to help you in some way!
+
+## Open and run the test project
+
+Now that the initial configurations are done, let's test them by building a pre-existing project, which was downloaded from git in the previous step.
+
+1. Open Android Studio, and you should see a screen like this:
+
+<div align="center">
+<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/home-android-studio.png">
+</div>
+
+2. Open the project you downloaded earlier:
+
+<div align="center">
+<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/open-project.png">
+</div>
+
+3. [Create a virtual device] following the guideline;
+
+4. Once you have a device created, use the play icon to build and view the app in the emulator:
+
+<div align="center">
+<img align="center" alt="Tip time app running" height="50" src="https://github.com/knludi/android-environment-setup/blob/master/README/play-app.png">
+</div>
+
+5. Wait for the app to build, this may take a few minutes. At the end you should see a screen similar to this:
+
+<div align="center">
+<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/environment-working.png">
+</div>
+
+6. Congratulations!! you have a completely configured android environment, and now you can start building your apps!🥳
+
+
+## References
+- [Dillinger | The Last Markdown Editor, Ever](https://dillinger.io/)
+- [Androidfor Developers](https://developer.android.com/)
+- [Text to kebab-case (dash-case) Online Conterter](https://textedit.tools/kebabcase)
+
+
+
+[download android studio]: <https://developer.android.com/studio>
+[.zshrc file]: <https://github.com/knludi/android-environment-setup/blob/master/.zshrc>
+[Previous Java releases]: <https://www.oracle.com/java/technologies/downloads/archive/>
+[Create a virtual device]: <https://developer.android.com/studio/run/managing-avds>
+[Java SE Development Kit 11.0.2]: <https://download.oracle.com/otn/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_osx-x64_bin.dmg>
+[Java SE Development Kit 8u251]: <https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox>
+[Iterm]: <https://iterm2.com/>
+[Generating a new SSH key and adding it to the ssh-agent]: <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+[Adding a new SSH key to your GitHub account]: <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
+ 
+
