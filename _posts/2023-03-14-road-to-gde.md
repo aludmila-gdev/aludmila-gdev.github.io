@@ -1,5 +1,5 @@
 ---
-title: "Markup: HTML Tags and Formatting"
+title: "Road to GDE - How was my experience"
 header:
   teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
 categories:
