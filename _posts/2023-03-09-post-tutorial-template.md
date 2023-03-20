@@ -1,173 +1,378 @@
 ---
-author_profile: false
+author_profile: true
 title: "How do I set up my native Android development environment."
+header:
+  teaser: "assets/images/teaser-500x300.jpg"
+categories:
+- Android
 tags: 
-  - sample post
-  - readability
-  - test
+  - mobile development
+  - android
+  - kotlin
+  - environment
+toc: true
 ---
 
+## Introduction
+an introduction to the software that will be covered, explaining its features and functionality.
 
-# Android Environment Setup
+## Prerequisites
+In this section, I share with you the configuration of my computer, and I consider the list of what are the minimum requirements necessary for you to follow the tutorial.
 
-About
-
-This repository is intended to share the way I like to configure my development environment to work with Android applications.
-
-For this, I performed the steps on a computer with the Mac OS X system, however the available links will possibly have instructions to perform the steps on other platforms as well!
-
-## Summary
-
-1. [Install Android Studio](#install-android-studio)
-2. [Install Java](#install-java)
-3. [Install Homebrew](#install-homebrew)
-4. [Install iTerm2](#install-iterm2)
-5. [Install zsh](#install-zsh)
-6. [Install oh-my-zsh](#install-oh-my-zsh)
-7. [Configure your .zshrc file](#configure-your-zshrc-file)
-8. [Install NVM](#install-nvm)
-8. [Configure GitHub credentials](#configure-github-credentials)
-9. [Clone a test project](#clone-a-test-project)
-10. [Open and run the test project](#open-and-run-the-test-project)
-10. [References](#references)
+|        MacBook Pro (Retina, 13-inch, Mid 2014)        |
+|:-----------------------------------------------------:|
+|             macOS Big Sur 11.7.1 (20G918)             |
+|             Processor 8 GB 1600 MHz DDR3              |
+|               Memory 8 GB 1600 MHz DDR3               |
+|              Graphics Intel Iris 1536 MB              |
 
 
-## Install Android Studio
-1. [Download android studio]
-2. Install android studio
+However, it's ok if you have a different hardware configuration! Try to follow the steps and adapt them to your context!
+{: .notice--info}
 
-## Install Java
-1. Go to the [Previous Java releases] page and select the java versions you will need in your context. In my case, I'm going to download versions [Java SE Development Kit 8u251] and [Java SE Development Kit 11.0.2].
 
-## Install Homebrew
-1. Open the terminal
-2. Paste the following command and [ENTER]
-```sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-## Install iTerm2
-1. Open the terminal
-2. Paste the following command and [ENTER]
-```sh
-brew install iterm2
-```
+## Installation
+### Install Android Studio
 
-## Install zsh
-1. Open the terminal
-2. Paste the following command and [ENTER]
-```sh
-brew install zsh
-```
+1. Visit the official [Android Studio Website](https://developer.android.com/studio){: .btn .btn--primary}
+2. Click the "Download Android Studio" button and wait for the installer to download.
+3. Once downloaded, run the installer file and follow the on-screen instructions to install Android Studio. During installation, you will be able to choose which components you want to install and which directory you want to install Android Studio in.
+4. Once installation is complete, launch Android Studio and follow the onscreen instructions to complete the initial setup. This includes installing the Android SDK and setting development preferences.
 
-## Install oh-my-zsh
-1. Open the terminal
-2. Paste the following command and [ENTER]
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+After the initial setup is complete, you're ready to start developing Android apps using Android Studio!
+{: .notice--success}
 
-## Configure your .zshrc file
-1. Open the terminal
-2. Copy the commands below respectively and [ENTER] after each of them
+### Install Java
+1. Visit the official [Oracle website to download Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html){: .btn .btn--primary}
+2. On the downloads page, look for the "Java SE" section and click on the "Download" button corresponding to the Java version you want to install. Be sure to choose the version compatible with your operating system.
+3. On the next page, accept the terms and conditions and click the "Download" button. The download should start automatically.
+4. When the download is complete, open the .dmg file that was downloaded. This should open a window containing the installer file.
+5. Double-click the installer file to launch it. Follow the on-screen instructions to complete installing Java on your computer.
 
-```sh
-cd
-```
+After installation is complete, you can verify that Java is working correctly by typing `java -version` in Terminal. If Java is installed correctly, you should see a message with information about the installed version.
+{: .notice--success}
 
-```sh
-open .
-```
-3. Now download this [.zshrc file] and copy it to the open folder.
-4. Fill in the following fields in the [.zshrc file] file with your github data
-```sh
-alias gitUserName="git config user.name \"Your Name\""
-alias gitUserEmail="git config user.email \"@gmail.com\""
-```
+### Install Homebrew
+1. Open the Terminal app on your Mac. You can find it in the "Utilities" folder inside the "Applications" folder.
+2. Paste the following command into the Terminal window and press Enter:
 
-## Install NVM
-1. Open the iterm
-2. Copy the commands below respectively and [ENTER] after each of them
-```sh
-brew update
-```
-```sh
- brew install nvm 
-```
-```sh
- mkdir $HOME/.nvm
-```
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-## Configure GitHub credentials
+3. Wait while the Homebrew installation script downloads and runs.
+4. When prompted, type your admin password and press Enter.
+5. Wait while Homebrew is installed on your system. This may take a few minutes, depending on the speed of your internet connection.
+6. When the installation is complete, Terminal will display a message that Homebrew has been successfully installed.
+7. To verify that Homebrew installed correctly, run the following command in Terminal:
 
-Now that your [Iterm] is configured, we can start using it instead of the standard terminal.
+`brew --version`
 
-1. Open the iterm
-2. Copy the commands below respectively and [ENTER] after each of them
-```sh
- git config --global user.name "Your Name"
-```
-```sh
- git config --global user.email "your_email@example.com"
-```
+8. This should display the version of Homebrew you just installed.
 
-3. Now you will need to follow the documentation available on github for [Generating a new SSH key and adding it to the ssh-agent] and [Adding a new SSH key to your GitHub account].
+Now that Homebrew is installed, you can use the `brew` command to install and manage packages on your Mac. To install a package, simply type "brew install [package name]" in Terminal and press Enter. Homebrew will automatically download and install the package and any required dependencies.
+{: .notice--success}
 
-## Clone a test project
 
-After setting up your ssh keys, you should be able to clone a test repository to build an Android project. To do this, run the following command in your iterm:
-```sh
- git clone git@github.com:knludi/DiceRoller.git
-```
-If there is an error at this stage, you can search for an answer on Google, or contact me by sending the error message, and I can try to help you in some way!
+### Install iTerm2
 
-## Open and run the test project
+iTerm2 offers several features and customization options that can be useful for advanced users or those who need more flexibility in using the terminal.
 
-Now that the initial configurations are done, let's test them by building a pre-existing project, which was downloaded from git in the previous step.
+1. Visit the [iTerm2 official website](https://www.iterm2.com/){: .btn .btn--primary}
+2. Open your web browser and visit the iTerm2 official website:
+3. Click the "Download" button to download the iTerm2 installation file. 
+4. When the download is complete, open the downloaded .zip file and extract the iTerm.app file. 
+5. Move the iTerm.app file to your Mac's "Applications" folder. 
+6. Double-click the iTerm.app file in the "Applications" folder to launch iTerm2. 
+7. iTerm2 may display a security warning asking you to confirm that you want to open the application. Click "Open" to continue. 
+8. iTerm2 will launch and you can start using it right away.
 
-1. Open Android Studio, and you should see a screen like this:
+Ready! You now have iTerm2 installed on your Mac and can use it as an alternative terminal to the standard macOS Terminal.
+{: .notice--success}
 
-<div align="center">
-<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/home-android-studio.png">
-</div>
 
-2. Open the project you downloaded earlier:
+### Install zsh
+1. Open the Terminal app on your Mac. You can find it in the "Utilities" folder inside the "Applications" folder. 
+2. Type the following command in Terminal and press Enter to check if zsh is already installed on your Mac:
 
-<div align="center">
-<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/open-project.png">
-</div>
+`zsh --version`
 
-3. [Create a virtual device] following the guideline;
+3. If zsh is already installed, you will see the version of zsh installed on your system. 
+4. If zsh is not installed, you can install zsh using Homebrew. If you don't already have Homebrew installed, follow the steps in "[Install Homebrew](#install-homebrew)" before continuing. 
+5. Type the following command in Terminal and press Enter to install zsh using Homebrew:
+`brew install zsh`
+6. Wait while Homebrew downloads and installs zsh on your system. This may take a few minutes, depending on the speed of your internet connection. 
+7. Once the installation is complete, enter the following command in Terminal to change your default shell to zsh:
 
-4. Once you have a device created, use the play icon to build and view the app in the emulator:
+`chsh -s /bin/zsh`
+8. When prompted, type your admin password and press Enter. 
+9. Close Terminal and open a new Terminal. zsh will now be the default shell you use in Terminal.
 
-<div align="center">
-<img align="center" alt="Tip time app running" height="50" src="https://github.com/knludi/android-environment-setup/blob/master/README/play-app.png">
-</div>
+Ready! Now zsh is installed on your Mac and you can use it as your default shell in Terminal. zsh offers a number of customization options and features that can make your Terminal experience more efficient and enjoyable.
+{: .notice--success}
 
-5. Wait for the app to build, this may take a few minutes. At the end you should see a screen similar to this:
 
-<div align="center">
-<img align="center" alt="Tip time app running" height="500" src="https://github.com/knludi/android-environment-setup/blob/master/README/environment-working.png">
-</div>
 
-6. Congratulations!! you have a completely configured android environment, and now you can start building your apps!🥳
 
+
+
+
+
+
+
+
+
+
+
+
+## Configuration
+A section that explains how to configure the software to run properly. This might include configuring options, registering accounts, or connecting to external services.
+
+## Basic Usage
+A section that describes the basic functionality of the software and how to use it. This may include examples and screenshots to illustrate the use of the software.
+
+## Advanced Features
+A section that describes advanced features of the software and how to use them. This can include more complex and comprehensive examples.
+
+## Tips & Tricks
+A section that features helpful tips and tricks to get the most out of the software. This may include keyboard shortcuts, hidden features, or advanced techniques.
+
+## Troubleshooting
+A section that describes common problems that may occur when using the software and how to resolve them. This may include common error messages and their solutions.
+
+## Conclusion
+A conclusion that summarizes the tutorial and highlights its main points. It may include suggestions for next steps or additional learning resources.
 
 ## References
-- [Dillinger | The Last Markdown Editor, Ever](https://dillinger.io/)
-- [Androidfor Developers](https://developer.android.com/)
-- [Text to kebab-case (dash-case) Online Conterter](https://textedit.tools/kebabcase)
+A section that lists any additional sources of information used in the tutorial, such as official documentation, tutorials, or other references.
 
 
 
-[download android studio]: <https://developer.android.com/studio>
-[.zshrc file]: <https://github.com/knludi/android-environment-setup/blob/master/.zshrc>
-[Previous Java releases]: <https://www.oracle.com/java/technologies/downloads/archive/>
-[Create a virtual device]: <https://developer.android.com/studio/run/managing-avds>
-[Java SE Development Kit 11.0.2]: <https://download.oracle.com/otn/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_osx-x64_bin.dmg>
-[Java SE Development Kit 8u251]: <https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox>
-[Iterm]: <https://iterm2.com/>
-[Generating a new SSH key and adding it to the ssh-agent]: <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
-[Adding a new SSH key to your GitHub account]: <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
- 
+### Header three
 
+#### Header four
+
+##### Header five
+
+###### Header six
+
+## Blockquotes
+
+Single line blockquote:
+
+> Stay hungry. Stay foolish.
+
+Multi line blockquote with a cite reference:
+
+> People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.
+
+<cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997
+{: .small}
+
+## Tables
+
+| Employee         | Salary |                                                              |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | $1     | Because that's all Steve Jobs needed for a salary.           |
+| [Jane Doe](#)    | $100K  | For all the blogging she does.                               |
+| [Fred Bloggs](#) | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |
+| [Jane Bloggs](#) | $100B  | With hair like that?! Enough said.                           |
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
+
+## Definition Lists
+
+Definition List Title
+:   Definition list division.
+
+Startup
+:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+
+#dowork
+:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
+
+Do It Live
+:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+
+## Unordered Lists (Nested)
+
+* List item one
+  * List item one
+    * List item one
+    * List item two
+    * List item three
+    * List item four
+  * List item two
+  * List item three
+  * List item four
+* List item two
+* List item three
+* List item four
+
+## Ordered List (Nested)
+
+1. List item one
+  1. List item one
+    1. List item one
+    2. List item two
+    3. List item three
+    4. List item four
+  2. List item two
+  3. List item three
+  4. List item four
+2. List item two
+3. List item three
+4. List item four
+
+## Forms
+
+<form>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text" size="30"><br>
+    Email: <input type="text" size="30"><br>
+    Date of birth: <input type="text" size="10">
+  </fieldset>
+</form>
+
+## Buttons
+
+Make any link standout more when applying the `.btn` class.
+
+```html
+<a href="#" class="btn--success">Success Button</a>
+```
+
+[Default Button](#){: .btn}
+[Primary Button](#){: .btn .btn--primary}
+[Success Button](#){: .btn .btn--success}
+[Warning Button](#){: .btn .btn--warning}
+[Danger Button](#){: .btn .btn--danger}
+[Info Button](#){: .btn .btn--info}
+[Inverse Button](#){: .btn .btn--inverse}
+[Light Outline Button](#){: .btn .btn--light-outline}
+
+```markdown
+[Default Button Text](#link){: .btn}
+[Primary Button Text](#link){: .btn .btn--primary}
+[Success Button Text](#link){: .btn .btn--success}
+[Warning Button Text](#link){: .btn .btn--warning}
+[Danger Button Text](#link){: .btn .btn--danger}
+[Info Button Text](#link){: .btn .btn--info}
+[Inverse Button](#link){: .btn .btn--inverse}
+[Light Outline Button](#link){: .btn .btn--light-outline}
+```
+
+[X-Large Button](#){: .btn .btn--primary .btn--x-large}
+[Large Button](#){: .btn .btn--primary .btn--large}
+[Default Button](#){: .btn .btn--primary }
+[Small Button](#){: .btn .btn--primary .btn--small}
+
+```markdown
+[X-Large Button](#link){: .btn .btn--primary .btn--x-large}
+[Large Button](#link){: .btn .btn--primary .btn--large}
+[Default Button](#link){: .btn .btn--primary }
+[Small Button](#link){: .btn .btn--primary .btn--small}
+```
+
+## Notices
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
+{: .notice}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--primary}` class.
+{: .notice--primary}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--info}` class.
+{: .notice--info}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--warning}` class.
+{: .notice--warning}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--success}` class.
+{: .notice--success}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--danger}` class.
+{: .notice--danger}
+
+## HTML Tags
+
+### Address Tag
+
+<address>
+  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
+</address>
+
+### Anchor Tag (aka. Link)
+
+This is an example of a [link](http://apple.com "Apple").
+
+### Abbreviation Tag
+
+The abbreviation CSS stands for "Cascading Style Sheets".
+
+*[CSS]: Cascading Style Sheets
+
+### Cite Tag
+
+"Code is poetry." ---<cite>Automattic</cite>
+
+### Code Tag
+
+You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+
+### Strike Tag
+
+This tag will let you <strike>strikeout text</strike>.
+
+### Emphasize Tag
+
+The emphasize tag should _italicize_ text.
+
+### Insert Tag
+
+This tag should denote <ins>inserted</ins> text.
+
+### Keyboard Tag
+
+This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
+
+### Preformatted Tag
+
+This tag styles large blocks of code.
+
+<pre>
+.post-title {
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 1.2;
+	and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
+}
+</pre>
+
+### Quote Tag
+
+<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
+
+### Strong Tag
+
+This tag shows **bold text**.
+
+### Subscript Tag
+
+Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
+
+### Superscript Tag
+
+Still sticking with science and Albert Einstein's E = MC<sup>2</sup>, which should lift the 2 up.
+
+### Variable Tag
+
+This allows you to denote <var>variables</var>.
