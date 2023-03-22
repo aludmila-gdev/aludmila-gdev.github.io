@@ -5,7 +5,7 @@ read_time: false
 comments: false
 share: false
 hidden: true
-title: <br><br><br>Let's go to create innovative and surprising mobile solutions!
+title: <br><br>Let's embark on this mobile development journey together!
 permalink: /
 header:
   overlay_image: /assets/images/banner2.jpg
