@@ -1,6 +1,6 @@
 ---
 author_profile: true
-title: "How do I set up my native Android development environment."
+title: "How do I set up my native Android development environment"
 header:
   teaser: "assets/images/teaser-500x300.jpg"
 categories:
@@ -14,7 +14,11 @@ toc: true
 ---
 
 ## Introduction
-an introduction to the software that will be covered, explaining its features and functionality.
+Learning how to set up your native Android development environment can be a challenge not just for those new to mobile programming.
+
+It is essential to ensure that your environment is set up correctly so that you can efficiently and easily develop your code.
+
+In this article, I'll take you step-by-step through the process of setting up my development environment, providing all the necessary information and resources I use to start developing mobile apps comfortably and effectively.
 
 ## Prerequisites
 In this section, I share with you the configuration of my computer, and I consider the list of what are the minimum requirements necessary for you to follow the tutorial.

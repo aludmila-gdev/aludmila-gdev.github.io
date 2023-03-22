@@ -39,9 +39,14 @@ tags:
 - home
 ---
 
-> Hello, welcome to my website!
-> Here, I share my experiences in developing native Android mobile apps.
-> With years of experience in the area, I dedicated myself to exploring all the possibilities this language offers and the ways to use Kotlin to develop efficient and high-quality mobile applications 🚀📱💻!
+Greetings and a warm welcome to my website!
+{: style="text-align: center;"}
+
+I'm happy to share my knowledge and expertise in developing native Android mobile applications.
+{: style="text-align: center;"}
+
+With several years of experience using Kotlin, I have passionately dedicated myself to exploring every possibility this programming language offers to develop highly efficient and superior-quality mobile apps.
+{: style="text-align: center;"}
+
 
 {% include feature_row %}
-
