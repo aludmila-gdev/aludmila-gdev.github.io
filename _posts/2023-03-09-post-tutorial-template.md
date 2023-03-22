@@ -182,7 +182,7 @@ Now you will need to follow the documentation available on github for [Generatin
 
 After setting up your ssh keys, you should be able to clone a test repository to build an Android project. To do this, run the following command in your iterm:
 ```sh
- git clone git@github.com:knludi/DiceRoller.git
+ git clone git@github.com:aludmila-gdev/DiceRoller.git
 ```
 If there is an error at this stage, you can search for an answer on Google, or contact me by sending the error message, and I can try to help you in some way!
 
@@ -211,18 +211,18 @@ Now that the initial configurations are done, let's test them by building a pre-
    {: .notice--success}
 
 
-## References
-[download android studio](https://developer.android.com/studio)
-[.zshrc file](https://github.com/aludmila-gdev/android-environment-setup/blob/master/.zshrc)
-[Previous Java releases](https://www.oracle.com/java/technologies/downloads/archive/)
-[Create a virtual device](https://developer.android.com/studio/run/managing-avds)
-[Java SE Development Kit 11.0.2](https://download.oracle.com/otn/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_osx-x64_bin.dmg)
-[Java SE Development Kit 8u251](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox)
-[Iterm](https://iterm2.com/)
-[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+## Referral Links
 
 
+- [Download android studio](https://developer.android.com/studio)
+- [.zshrc file](https://github.com/aludmila-gdev/android-environment-setup/blob/master/.zshrc)
+- [Previous Java releases](https://www.oracle.com/java/technologies/downloads/archive/)
+- [Create a virtual device](https://developer.android.com/studio/run/managing-avds)
+- [Java SE Development Kit 11.0.2](https://download.oracle.com/otn/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_osx-x64_bin.dmg)
+- [Java SE Development Kit 8u251](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox)
+- [Iterm](https://iterm2.com/)
+- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 
 [download android studio]: <https://developer.android.com/studio>
