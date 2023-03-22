@@ -176,6 +176,8 @@ Now that your [Iterm] is configured, we can start using it instead of the standa
 Now you will need to follow the documentation available on github for [Generating a new SSH key and adding it to the ssh-agent] and [Adding a new SSH key to your GitHub account].
    {: .notice--success}
 
+## Testing the environment
+
 ### Clone a test project
 
 After setting up your ssh keys, you should be able to clone a test repository to build an Android project. To do this, run the following command in your iterm:
@@ -210,9 +212,16 @@ Now that the initial configurations are done, let's test them by building a pre-
 
 
 ## References
-- [Dillinger | The Last Markdown Editor, Ever](https://dillinger.io/)
-- [Androidfor Developers](https://developer.android.com/)
-- [Text to kebab-case (dash-case) Online Conterter](https://textedit.tools/kebabcase)
+[download android studio](https://developer.android.com/studio)
+[.zshrc file](https://github.com/aludmila-gdev/android-environment-setup/blob/master/.zshrc)
+[Previous Java releases](https://www.oracle.com/java/technologies/downloads/archive/)
+[Create a virtual device](https://developer.android.com/studio/run/managing-avds)
+[Java SE Development Kit 11.0.2](https://download.oracle.com/otn/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_osx-x64_bin.dmg)
+[Java SE Development Kit 8u251](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox)
+[Iterm](https://iterm2.com/)
+[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
 
 
 
