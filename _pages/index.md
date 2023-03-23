@@ -29,7 +29,7 @@ feature_row:
   alt: "See More!"
   title: "My Journey in Kotlin Multiplatform Mobile"
   excerpt: ""
-  url: "/kmm/"
+  url: "/tags/#kmm"
   btn_class: "btn--primary"
   btn_label: "Come with me!"
 

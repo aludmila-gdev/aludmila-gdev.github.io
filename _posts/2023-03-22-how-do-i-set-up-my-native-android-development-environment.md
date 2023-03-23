@@ -2,7 +2,7 @@
 author_profile: true
 title: "How do I set up my native Android development environment"
 header:
-  teaser: "assets/images/teaser-500x300.jpg"
+  teaser: "assets/images/aludmila-gdev/agdev-android-studio.png"
 categories:
 - Android
 tags: 
@@ -70,7 +70,7 @@ After installation is complete, you can verify that Java is working correctly by
 6. When the installation is complete, Terminal will display a message that Homebrew has been successfully installed.
 7. To verify that Homebrew installed correctly, run the following command in Terminal:
 
-```
+```shell
 brew --version
 ```
 
@@ -101,7 +101,7 @@ Ready! You now have iTerm2 installed on your Mac and can use it as an alternativ
 1. Open the Terminal app on your Mac. You can find it in the "Utilities" folder inside the "Applications" folder. 
 2. Type the following command in Terminal and press Enter to check if zsh is already installed on your Mac:
 
-```
+```shell
 zsh --version
 ```
 
@@ -109,14 +109,14 @@ zsh --version
 4. If zsh is not installed, you can install zsh using Homebrew. If you don't already have Homebrew installed, follow the steps in "[Install Homebrew](#install-homebrew)" before continuing. 
 5. Type the following command in Terminal and press Enter to install zsh using Homebrew:
 
-```
+```shell
 brew install zsh
 ```
 
 6. Wait while Homebrew downloads and installs zsh on your system. This may take a few minutes, depending on the speed of your internet connection. 
 7. Once the installation is complete, enter the following command in Terminal to change your default shell to zsh:
 
-```
+```shell
 chsh -s /bin/zsh
 ```
 
@@ -130,7 +130,7 @@ Ready! Now zsh is installed on your Mac and you can use it as your default shell
 1. Open the terminal
 2. Paste the following command and [ENTER]
 
-```sh
+```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -138,11 +138,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 1. Open the terminal
 2. Copy the commands below respectively and [ENTER] after each of them
 
-```sh
+```shell
 cd
 ```
 
-```sh
+```shell
 open .
 ```
 3. Now download this [.zshrc file] and copy it to the open folder.
@@ -151,15 +151,15 @@ open .
 1. Open the iterm
 2. Copy the commands below respectively and [ENTER] after each of them:
 
-```sh
+```shell
 brew update
 ```
 
-```sh
+```shell
  brew install nvm 
 ```
 
-```sh
+```shell
  mkdir $HOME/.nvm
 ```
 ### Configure GitHub credentials
@@ -169,11 +169,11 @@ Now that your [Iterm] is configured, we can start using it instead of the standa
 1. Open the iterm
 2. Copy the commands below respectively and [ENTER] after each of them:
 
-  ```sh
+  ```shell
    git config --global user.name "Your Name"
   ```
   
-  ```sh
+  ```shell
    git config --global user.email "your_email@example.com"
   ```
 
@@ -185,7 +185,8 @@ Now you will need to follow the documentation available on github for [Generatin
 ### Clone a test project
 
 After setting up your ssh keys, you should be able to clone a test repository to build an Android project. To do this, run the following command in your iterm:
-```sh
+
+```shell
  git clone git@github.com:aludmila-gdev/DiceRoller.git
 ```
 If there is an error at this stage, you can search for an answer on Google, or contact me by sending the error message, and I can try to help you in some way!

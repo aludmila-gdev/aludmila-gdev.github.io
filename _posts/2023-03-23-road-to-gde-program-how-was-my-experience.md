@@ -1,7 +1,7 @@
 ---
-title: "Road to GDE - How was my experience"
+title: "Road to GDE Program - How was my experience"
 header:
-  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+  teaser: "assets/images/aludmila-gdev/agdev-road-to-gde.jpeg"
 categories:
   - Markup
 tags:
