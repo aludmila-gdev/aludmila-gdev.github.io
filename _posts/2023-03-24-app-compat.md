@@ -19,7 +19,7 @@ toc: true
 The AppCompat library also provides support for more advanced features like theme compatibility, support for floating menus, the night mode feature, and much more. In summary, AppCompat is an essential tool for Android application developers as it helps ensure that their applications have a consistent look and feel across different versions of the Android operating system.
 ___
 
-## Key facts about AppCompat:
+## Key facts about AppCompat
 
 ### Developed by the Google team
 AppCompat is an official Google support library for Android app developers. This means that it is developed and maintained by the Google team, which ensures that developers have access to a high-quality and reliable tool.
@@ -30,7 +30,7 @@ One of the main features of AppCompat is its backward feature support. This mean
 ### Theme Compatibility
 AppCompat supports custom themes, allowing developers to customize the appearance of their apps. This is particularly useful for apps that need to fit a brand's visual identity.
 
-###Night Mode Feature
+### Night Mode Feature
 AppCompat supports Night Mode feature which allows users to change the app appearance to a dark theme. This can help improve app readability in low-light environments.
 
 ### Floating menu support
