@@ -4,7 +4,6 @@ header:
   teaser: "assets/images/aludmila-gdev/agdev-appcompat.png"
 categories:
 - Android
-- iOS
 tags:
   - mobile development
   - android
